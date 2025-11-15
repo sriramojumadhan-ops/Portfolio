@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/cropped_circle_image.png" type="image/x-icon">
+    <title>Madhan-Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<!-- ======================= NAVBAR ======================= -->
+<nav class="navbar" role="navigation" aria-label="Main navigation menu">
+    <div class="container">
+        <a href="#hero" class="logo">
+            <span class="highlight">Madhan</span> Sreeramoju <span class="sr-only">Portfolio Homepage</span>
+        </a>
+
+        <div class="nav-links" id="navLinks" role="menubar">
+            <a href="#about" role="menuitem">About</a>
+            <a href="#skills" role="menuitem">Skills</a>
+            <a href="#projects" role="menuitem">Projects</a>
+            <a href="#contact" role="menuitem">Contact</a>
+
+            <button id="theme-toggle" aria-label="Toggle dark/light theme" role="switch" aria-checked="false" type="button">
+                <span class="icon-swap">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                    <i class="fas fa-moon" aria-hidden="true" style="display: none;"></i>
+                </span>
+            </button>
+        </div>
+
+        <button class="burger-menu" id="burgerMenu" aria-label="Toggle navigation menu" aria-controls="navLinks" aria-expanded="false" type="button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </div>
+</nav>
+
+<!-- ======================= MAIN CONTENT ======================= -->
+<main id="main-content">
+
+<!-- ================= HERO SECTION ================= -->
+<section id="hero" class="hero-section" aria-labelledby="hero-heading">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="hero-heading">FullStack Developer</h1>
+                <p class="lead">
+                    I craft high-performance, user-centric web experiences using modern frameworks,
+                    specializing in building <span id="dynamic-text" class="highlight">modern, fast</span> web applications.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/sriramojumadhan-ops" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/madhansreeramoju" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:marjory.sriramojumadhan@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                <a href="assets/Resume_for_placement (1).pdf" target="_blank" class="btn btn-secondary">
+    Download Resume <i class="fas fa-download"></i>
+</a>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="assets\madhanimage.jpg"
+                     class="profile-pic"
+                     width="300"
+                     height="300">
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2 id="about-heading">About Me</h2>
+        <div class="about-content">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+                 class="about-img"
+                 width="500"
+                 height="350">
+
+            <div>
+                <h3>My Philosophy</h3>
+                <p>I'm a results-driven FullStack Developer focused on bridging design and scalable code.</p>
+                <p>I specialize in HTML, CSS, JavaScript, and Java with JDBC, and I focus on building clean, simple, and efficient web applications.
+
+</p>
+                <p>I thrive in agile teams and convert ideas into polished digital experiences.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= SKILLS SECTION ================= -->
+ <section id="skills" class="skills-section">
+    <div class="container">
+        <h2 id="skills-heading">My Skills</h2>
+
+        <div class="skills-grid">
+
+            <!-- 🌐 Frontend Development -->
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML5</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap / Tailwind CSS</li>
+                    <li><i class="fab fa-react"></i> React (Basics)</li>
+                </ul>
+            </div>
+
+            <!-- 🖥 Backend Development -->
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                    <li><i class="fab fa-java"></i> Java</li>
+                    <li><i class="fas fa-database"></i> JDBC (Database Connectivity)</li>
+                    <li><i class="fas fa-cubes"></i> Java Collections Framework</li>
+                    <li><i class="fas fa-folder"></i> File Handling (Java)</li>
+                </ul>
+            </div>
+
+            <!-- 🧰 Tools & Technologies -->
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                    <li><i class="fas fa-code"></i> OOP Concepts</li>
+                    <li><i class="fas fa-terminal"></i> Command Line Tools</li>
+                    <li><i class="fas fa-database"></i> MySQL (Basics)</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ================ PROJECTS SECTION ================ -->
+
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 id="projects-heading">Featured Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- ⭐ IOT PROJECT ⭐ -->
+            <div class="project-card">
+                <figure>
+                    <img src="https://farmonaut.com/wp-content/uploads/2025/06/Innovative-Pest-Control-7-Powerful-New-Methods_1.jpg" 
+                         alt="IoT based agriculture protection from wild animals">
+                </figure>
+
+                <h3>IoT Based Agriculture Protection</h3>
+
+                <p>
+                    A smart IoT system that protects agriculture fields using Laser Diodes,
+                    LDR sensors, Arduino processing and GSM alerts. LCD displays live status.
+                </p>
+
+                <div class="project-tech">
+                    <span>Arduino Uno</span>
+                    <span>Laser Diode</span>
+                    <span>LDR Sensor</span>
+                    <span>GSM SIM900A</span>
+                    <span>LCD (I2C)</span>
+                    <span>Buzzer Alert</span>
+                </div>
+
+                <div class="project-links">
+    <a href="#" class="btn btn-small">Live Demo</a>
+    <a href="https://github.com/sriramojumadhan-ops/Iot-based-Agriculture-protection"
+       target="_blank"
+       class="btn btn-small">Source Code</a>
+</div>
+
+            </div>
+
+            <!-- ⭐ HOTEL BOOKING SYSTEM (CUI) ⭐ -->
+<div class="project-card">
+    <figure>
+        <img src="assets\WhatsApp Image 2025-11-14 at 12.50.24.jpeg"
+             alt="Hotel Booking System CUI using Java and File Database">
+    </figure>
+
+    <h3>Hotel Booking System (CUI)</h3>
+
+    <p>
+        A Java-based Console User Interface (CUI) project that allows customers to 
+        book rooms, check availability, manage customer records, and store data 
+        using a file-based database system. Designed with structured menus and 
+        efficient file handling.
+    </p>
+
+    <div class="project-tech">
+        <span>Java</span>
+        <span>CUI</span>
+        <span>File Handling</span>
+        <span>OOP</span>
+        <span>Data Storage</span>
+        <span>Menu Driven</span>
+    </div>
+
+    <div class="project-links">
+    <a href="#" class="btn btn-small">Live Demo</a>
+    <a href="https://github.com/sriramojumadhan-ops/CUI-PROJECT"
+       target="_blank"
+       class="btn btn-small">Source Code</a>
+</div>
+
+</div>
+
+
+            <!-- ⭐ BAKERY GUI PROJECT ⭐ -->
+            <div class="project-card">
+                <figure>
+                    <img src="assets\ChatGPT Image Nov 7, 2025, 07_10_06 PM.png"
+                         alt="Bakery Billing and Inventory Management System">
+                </figure>
+
+                <h3>GUI-PROJECT</h3>
+
+                <p>
+                    A Java Swing based bakery management system with billing, stock updates,
+                    sales reports and PDF export using JDBC and MySQL.
+                </p>
+
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>Java Swing</span>
+                    <span>JDBC</span>
+                    <span>MySQL</span>
+                    <span>JTable</span>
+                    <span>PDF Export</span>
+                </div>
+
+                <div class="project-links">
+    <a href="#" class="btn btn-small">Live Demo</a>
+    <a href="https://github.com/sriramojumadhan-ops/GUI-PROJECT"
+       target="_blank"
+       class="btn btn-small">Source Code</a>
+</div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<!-- ================= CERTIFICATES SECTION ================= -->
+<section id="certificates" class="certificates-section">
+    <div class="container">
+        <h2 id="certificates-heading">Certificates</h2>
+
+        <div class="certificates-grid">
+
+            <!-- Certificate 1 -->
+            <div class="certificate-card">
+                <figure>
+                    <img src="https://4kwallpapers.com/images/wallpapers/python-programming-1920x1080-16102.jpg"
+                         alt="Certificate 1">
+                </figure>
+                <h3>Python for Non-Programmers</h3>
+                <a href="https://www.linkedin.com/posts/madhansreeramoju_certificate-of-completion-activity-7361831505335083008-ZG9x?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElgTgkBehWYwPa_ljscinTKfY-ig1QP2cA" target="_blank" class="btn btn-small">View Certificate</a>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="certificate-card">
+                <figure>
+                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Virtual_Reality_1.jpg" 
+                         alt="Certificate 2">
+                </figure>
+                <h3>Virtual reality</h3>
+                <a href="https://www.linkedin.com/posts/madhansreeramoju_ar-vr-xr-activity-7368561406037716993-jXIR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElgTgkBehWYwPa_ljscinTKfY-ig1QP2cA" target="_blank" class="btn btn-small">View Certificate</a>
+            </div>
+
+            
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 id="contact-heading">Get In Touch</h2>
+
+        <div class="contact-details">
+            <p><i class="fas fa-envelope"></i> Email: sriramojumadhan@gmail.com</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn:https://linkedin.com/in/madhansreeramoju</p>
+            <p><i class="fab fa-github"></i> GitHub: https://github.com/sriramojumadhan-ops</p>
+        </div>
+
+        <div class="contact-actions">
+            <a href="mailto:pulisheshukumar@gmail.com" class="btn btn-primary btn-large">Send Message</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year">2026</span> Madhan Sreeramoju</p>
+            <div class="footer-links">
+                <a href="#about">About</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
